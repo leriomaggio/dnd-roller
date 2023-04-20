@@ -1,0 +1,26 @@
+version = "0.0.1"
+name = "dnd-roller"
+authors = [
+    {name = "Dave Clements", email="dclements@anaconda.com"},
+    {name = "Bianca Henderson", email="bhenderson@anaconda.com"},
+    {name = "Mahe Irham Khan", email="mkhan@anaconda.com"},
+    {name = "Valerio Maggio", email = "vmaggio@anaconda.com" }
+]
+description = "Python package to roll D&D dice in the terminal."
+requires-python = ">=3.10"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+	"Intended Audience :: Developers",
+	"Intended Audience :: Science/Research",
+	"Programming Language :: Python :: 3"
+]
+dependencies = [
+    "nomoji==0.0.5",
+    "tabulate>=0.8.10"
+]
+
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"

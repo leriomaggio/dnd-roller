@@ -1,0 +1,11 @@
+name: packaging
+channels:
+  - leriomaggio
+  - defaults
+dependencies:
+  - nomoji>=0.0.5
+  - pip=23.0.1
+  - pytest=7.1.2
+  - python=3.10.10
+  - setuptools=66.0.0
+  - tabulate=0.8.10
