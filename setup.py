@@ -19,5 +19,5 @@ setup(
     url="http://github.com/leriomaggio/dnd-roller",
     include_package_data=True,
     packages=find_packages(exclude=[]),
-    install_requires=["tabulate"],
+    install_requires=["tabulate>=0.8.10"],
 )
